@@ -21,7 +21,8 @@ export default function MosaicoAlimentacao() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               nisi qui voluptates. Rem, animi eaque inventore culpa ea excepturi
-              voluptate quibusdam deserunt.
+              voluptate quibusdam deserunt. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
             </p>
             <div className={styles.dataAndAutor}>
               <p className={styles.autor}>Marco Antonio</p>

@@ -5,9 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Link href="/post">
-        <Alimentacao />
-      </Link>
+      <Alimentacao />
       <section className={styles.sectionAlimentacao}>
         <MosaicoAlimentacao />
         <MosaicoAlimentacao />
