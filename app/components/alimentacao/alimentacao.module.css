@@ -11,7 +11,23 @@
   justify-content: center;
   width: 100%;
   padding: 10px;
+  cursor: pointer;
 }
+.linkHover {
+  display: block; /* Certifique-se de que o link ocupe o bloco inteiro */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+.linkHover:hover .imgstyle {
+  filter: brightness(0.8); /* Ajusta a cor da imagem ao passar o mouse */
+}
+.linkHover:hover .firstImgArticle {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+.linkHover:hover .section {
+  transform: scale(1.06); /* Aumenta o tamanho do contêiner ao passar o mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais pronunciada ao passar o mouse */
+}
+
 .imgstyle {
   border-radius: 10px;
 }

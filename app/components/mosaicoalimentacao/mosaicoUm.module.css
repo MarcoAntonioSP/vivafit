@@ -10,10 +10,25 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  border-radius: 10px;
+}
+.linkHover {
+  display: block; /* Certifique-se de que o link ocupe o bloco inteiro */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+.linkHover:hover .imgstyle {
+  filter: brightness(0.8); /* Ajusta a cor da imagem ao passar o mouse */
+}
+.linkHover:hover .firstImgArticle {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+.linkHover:hover .section {
+  transform: scale(1.06); /* Aumenta o tamanho do contêiner ao passar o mouse */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais pronunciada ao passar o mouse */
 }
 
 .firstImgArticle {
-  width: 60%;
+  width: 85%;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.096);
   border-radius: 10px;
 }
@@ -22,7 +37,7 @@
 }
 
 .descriptionArticle {
-  width: 60%;
+  width: 80%;
 }
 .descriptionArticle h2 {
   font-size: 20px;
@@ -35,7 +50,4 @@
 .autor {
   font-size: 16px;
   font-weight: 600;
-}
-
-.dataAndAutor {
 }

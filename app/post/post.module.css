@@ -1,0 +1,62 @@
+.linktop {
+  margin: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(0, 157, 255);
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 162, 255);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.firstImgArticle {
+  width: 100%;
+  max-width: 900px; /* Limita a largura máxima da imagem para melhor responsividade */
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+}
+
+.imgstyle {
+  margin: 10px;
+  width: 95%;
+  height: 450px; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Ajusta a imagem para cobrir a área sem deformação */
+  border-radius: 10px;
+}
+
+.descriptionArticle {
+  width: 100%;
+  max-width: 800px; /* Limita a largura máxima para manter a leitura confortável */
+  margin-top: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.descriptionArticle h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.descriptionArticle p {
+  font-size: 14px;
+  line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+.autor {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dataAndAutor {
+  margin-top: 20px; /* Espaço acima dos dados e autor */
+  font-size: 14px;
+  color: #555; /* Cor do texto para diferenciar dos outros elementos */
+}

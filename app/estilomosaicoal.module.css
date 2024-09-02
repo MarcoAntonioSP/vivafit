@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionAlimentacao {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(3, 1fr); /* Define 3 colunas iguais */
+  gap: 0rem; /* Define o espaçamento entre os itens */
+}

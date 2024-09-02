@@ -1,11 +1,14 @@
 import Alimentacao from "./components/alimentacao/Alimentacao";
 import MosaicoAlimentacao from "./components/mosaicoalimentacao/MosaicoAlimentacao";
 import styles from "./estilomosaicoal.module.css";
+import Link from "next/link";
 export default function Home() {
   return (
-    <main>
-      <Alimentacao />
-      <section className="grid grid-cols-3 gap-8">
+    <main className={styles.main}>
+      <Link href="/post">
+        <Alimentacao />
+      </Link>
+      <section className={styles.sectionAlimentacao}>
         <MosaicoAlimentacao />
         <MosaicoAlimentacao />
         <MosaicoAlimentacao />
