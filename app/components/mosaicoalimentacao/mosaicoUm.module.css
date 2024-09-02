@@ -1,0 +1,41 @@
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 162, 255);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.firstImgArticle {
+  width: 60%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
+}
+.imgstyle {
+  border-radius: 10px;
+}
+
+.descriptionArticle {
+  width: 60%;
+}
+.descriptionArticle h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.descriptionArticle p {
+  font-size: 14px;
+}
+
+.autor {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dataAndAutor {
+}
